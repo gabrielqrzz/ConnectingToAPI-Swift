@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0634D5C92DC1854500291FBF /* NinethyChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5C82DC1854500291FBF /* NinethyChallengeApp.swift */; };
+		0634D5CB2DC1854500291FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5CA2DC1854500291FBF /* ContentView.swift */; };
+		0634D5CD2DC1854700291FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0634D5CC2DC1854700291FBF /* Assets.xcassets */; };
+		0634D5D02DC1854700291FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0634D5CF2DC1854700291FBF /* Preview Assets.xcassets */; };
+		0634D5DA2DC1854700291FBF /* NinethyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5D92DC1854700291FBF /* NinethyChallengeTests.swift */; };
+		0634D5E42DC1854700291FBF /* NinethyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5E32DC1854700291FBF /* NinethyChallengeUITests.swift */; };
+		0634D5E62DC1854700291FBF /* NinethyChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5E52DC1854700291FBF /* NinethyChallengeUITestsLaunchTests.swift */; };
+		0634D5F32DC1990200291FBF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5F22DC1990200291FBF /* Model.swift */; };
+		0634D5F52DC19ACC00291FBF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0634D5F42DC19ACC00291FBF /* ViewModel.swift */; };
+		06F719572DC2E4510067101E /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F719562DC2E4510067101E /* CharacterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0634D5D62DC1854700291FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0634D5BD2DC1854500291FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0634D5C42DC1854500291FBF;
+			remoteInfo = NinethyChallenge;
+		};
+		0634D5E02DC1854700291FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0634D5BD2DC1854500291FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0634D5C42DC1854500291FBF;
+			remoteInfo = NinethyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0634D5C52DC1854500291FBF /* NinethyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinethyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0634D5C82DC1854500291FBF /* NinethyChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethyChallengeApp.swift; sourceTree = "<group>"; };
+		0634D5CA2DC1854500291FBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0634D5CC2DC1854700291FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0634D5CF2DC1854700291FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0634D5D52DC1854700291FBF /* NinethyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinethyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0634D5D92DC1854700291FBF /* NinethyChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethyChallengeTests.swift; sourceTree = "<group>"; };
+		0634D5DF2DC1854700291FBF /* NinethyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinethyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0634D5E32DC1854700291FBF /* NinethyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethyChallengeUITests.swift; sourceTree = "<group>"; };
+		0634D5E52DC1854700291FBF /* NinethyChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethyChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0634D5F22DC1990200291FBF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0634D5F42DC19ACC00291FBF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		06F719562DC2E4510067101E /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0634D5C22DC1854500291FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5D22DC1854700291FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5DC2DC1854700291FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0634D5BC2DC1854500291FBF = {
+			isa = PBXGroup;
+			children = (
+				0634D5C72DC1854500291FBF /* NinethyChallenge */,
+				0634D5D82DC1854700291FBF /* NinethyChallengeTests */,
+				0634D5E22DC1854700291FBF /* NinethyChallengeUITests */,
+				0634D5C62DC1854500291FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0634D5C62DC1854500291FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0634D5C52DC1854500291FBF /* NinethyChallenge.app */,
+				0634D5D52DC1854700291FBF /* NinethyChallengeTests.xctest */,
+				0634D5DF2DC1854700291FBF /* NinethyChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0634D5C72DC1854500291FBF /* NinethyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				0634D5C82DC1854500291FBF /* NinethyChallengeApp.swift */,
+				0634D5CA2DC1854500291FBF /* ContentView.swift */,
+				0634D5CC2DC1854700291FBF /* Assets.xcassets */,
+				0634D5CE2DC1854700291FBF /* Preview Content */,
+				0634D5F22DC1990200291FBF /* Model.swift */,
+				0634D5F42DC19ACC00291FBF /* ViewModel.swift */,
+				06F719562DC2E4510067101E /* CharacterView.swift */,
+			);
+			path = NinethyChallenge;
+			sourceTree = "<group>";
+		};
+		0634D5CE2DC1854700291FBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0634D5CF2DC1854700291FBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0634D5D82DC1854700291FBF /* NinethyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0634D5D92DC1854700291FBF /* NinethyChallengeTests.swift */,
+			);
+			path = NinethyChallengeTests;
+			sourceTree = "<group>";
+		};
+		0634D5E22DC1854700291FBF /* NinethyChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0634D5E32DC1854700291FBF /* NinethyChallengeUITests.swift */,
+				0634D5E52DC1854700291FBF /* NinethyChallengeUITestsLaunchTests.swift */,
+			);
+			path = NinethyChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0634D5C42DC1854500291FBF /* NinethyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0634D5E92DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallenge" */;
+			buildPhases = (
+				0634D5C12DC1854500291FBF /* Sources */,
+				0634D5C22DC1854500291FBF /* Frameworks */,
+				0634D5C32DC1854500291FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinethyChallenge;
+			productName = NinethyChallenge;
+			productReference = 0634D5C52DC1854500291FBF /* NinethyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0634D5D42DC1854700291FBF /* NinethyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0634D5EC2DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallengeTests" */;
+			buildPhases = (
+				0634D5D12DC1854700291FBF /* Sources */,
+				0634D5D22DC1854700291FBF /* Frameworks */,
+				0634D5D32DC1854700291FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0634D5D72DC1854700291FBF /* PBXTargetDependency */,
+			);
+			name = NinethyChallengeTests;
+			productName = NinethyChallengeTests;
+			productReference = 0634D5D52DC1854700291FBF /* NinethyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0634D5DE2DC1854700291FBF /* NinethyChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0634D5EF2DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallengeUITests" */;
+			buildPhases = (
+				0634D5DB2DC1854700291FBF /* Sources */,
+				0634D5DC2DC1854700291FBF /* Frameworks */,
+				0634D5DD2DC1854700291FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0634D5E12DC1854700291FBF /* PBXTargetDependency */,
+			);
+			name = NinethyChallengeUITests;
+			productName = NinethyChallengeUITests;
+			productReference = 0634D5DF2DC1854700291FBF /* NinethyChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0634D5BD2DC1854500291FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0634D5C42DC1854500291FBF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0634D5D42DC1854700291FBF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0634D5C42DC1854500291FBF;
+					};
+					0634D5DE2DC1854700291FBF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0634D5C42DC1854500291FBF;
+					};
+				};
+			};
+			buildConfigurationList = 0634D5C02DC1854500291FBF /* Build configuration list for PBXProject "NinethyChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0634D5BC2DC1854500291FBF;
+			productRefGroup = 0634D5C62DC1854500291FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0634D5C42DC1854500291FBF /* NinethyChallenge */,
+				0634D5D42DC1854700291FBF /* NinethyChallengeTests */,
+				0634D5DE2DC1854700291FBF /* NinethyChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0634D5C32DC1854500291FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0634D5D02DC1854700291FBF /* Preview Assets.xcassets in Resources */,
+				0634D5CD2DC1854700291FBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5D32DC1854700291FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5DD2DC1854700291FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0634D5C12DC1854500291FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F719572DC2E4510067101E /* CharacterView.swift in Sources */,
+				0634D5F32DC1990200291FBF /* Model.swift in Sources */,
+				0634D5CB2DC1854500291FBF /* ContentView.swift in Sources */,
+				0634D5F52DC19ACC00291FBF /* ViewModel.swift in Sources */,
+				0634D5C92DC1854500291FBF /* NinethyChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5D12DC1854700291FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0634D5DA2DC1854700291FBF /* NinethyChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0634D5DB2DC1854700291FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0634D5E62DC1854700291FBF /* NinethyChallengeUITestsLaunchTests.swift in Sources */,
+				0634D5E42DC1854700291FBF /* NinethyChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0634D5D72DC1854700291FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0634D5C42DC1854500291FBF /* NinethyChallenge */;
+			targetProxy = 0634D5D62DC1854700291FBF /* PBXContainerItemProxy */;
+		};
+		0634D5E12DC1854700291FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0634D5C42DC1854500291FBF /* NinethyChallenge */;
+			targetProxy = 0634D5E02DC1854700291FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0634D5E72DC1854700291FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0634D5E82DC1854700291FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0634D5EA2DC1854700291FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NinethyChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0634D5EB2DC1854700291FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NinethyChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0634D5ED2DC1854700291FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinethyChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NinethyChallenge";
+			};
+			name = Debug;
+		};
+		0634D5EE2DC1854700291FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinethyChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NinethyChallenge";
+			};
+			name = Release;
+		};
+		0634D5F02DC1854700291FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NinethyChallenge;
+			};
+			name = Debug;
+		};
+		0634D5F12DC1854700291FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GabrielQueiroz.NinethyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NinethyChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0634D5C02DC1854500291FBF /* Build configuration list for PBXProject "NinethyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0634D5E72DC1854700291FBF /* Debug */,
+				0634D5E82DC1854700291FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0634D5E92DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0634D5EA2DC1854700291FBF /* Debug */,
+				0634D5EB2DC1854700291FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0634D5EC2DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0634D5ED2DC1854700291FBF /* Debug */,
+				0634D5EE2DC1854700291FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0634D5EF2DC1854700291FBF /* Build configuration list for PBXNativeTarget "NinethyChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0634D5F02DC1854700291FBF /* Debug */,
+				0634D5F12DC1854700291FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0634D5BD2DC1854500291FBF /* Project object */;
+}
